@@ -73,7 +73,7 @@ class AccountManager {
     private static int accountNumberCounter = 100000; 
 
  
-   // Generate sequential account number like ACC100001, ACC100002, ...
+   // account number like ACC100001, ACC100002, ...
     private String generateAccountNumber() {
         accountNumberCounter++;
         return "ACC" + accountNumberCounter;
